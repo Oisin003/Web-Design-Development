@@ -1,0 +1,167 @@
+body {background-color: #6320EE; font-family: Verdana, Arial, sans-serif;}
+#wrapper{margin: 0 auto; width: 80%; background-color: #6320EE; color: #6320ee;}
+header{ background-color: #ffffff; 
+	color: black;
+	font-size: 200%; 
+	padding: 10px; 
+	border-bottom: solid 5px #6320EE; 
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+nav{background-color: #ffffff; padding: 20px; border: 5px dashed; border-color: black; text-align: centre;}
+
+
+main {background-color: #8075FF;
+	color: #211a1d;
+	padding: 10px 20px;
+	overflow: auto;
+	text-align: left;
+	
+}
+footer{ font-size: 100%;
+	text-align: left;
+	padding: 20px;
+	color: black;
+	background-color: #ffffff;
+}
+h1{color: black;}
+h2{color: black;
+	font-family: Arial, sans-serif;
+}
+p{color: black; text-align: right;}
+
+#floatright{float: right;
+	margin: 10px;
+}
+
+nav a  { background-color:#ffffff;
+	color: black; 
+	border: 5px solid black; 
+	text-decoration: none; 
+	padding: 10px; 
+	text-align: centre; 
+	display: inline-block;
+	width: 100px;}
+
+nav a:link {color: black;}
+nav a:visited {color: black;}
+nav a:hover {color: #f8f0fb;
+	background-color: #8075FF;
+	border: black;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  display: block;
+  margin: auto;
+  width: 90%;
+}
+
+img:hover {opacity: 0.5; transition: 0.9s} 
+ 
+ @media only screen and (max-width: 1024px){
+	nav{float: none; width: auto; border-bottom: 5px solid black; }
+	main{margin-left: 0;}
+}
+@media only screen and (max-width: 1024px){
+	body {margin: 0;}
+	#wrapper{width: auto;}
+	hedder{background-image: none; height: 80px; padding: 20px;}
+	nav {float: none;width:auto; border-bottom: 5px solid black;}
+	main{margin-left: 0;}
+	nav a{display: inline-block; width: 100px; border-style: none; padding-left: 20px; border: black;}
+	h1 h2{font-size:110%;}
+	p{font-size: 90%}
+}
+
+@media only screen and (max-width: 600px){
+	header{height: 40px; padding: 10px 0 0 0; border: black;}
+	h2{font-size: 90%;}
+	h1{font-size: 80%; margin:0; text-align:center;}
+	img{display: none;}
+	nav{text-align: left; border: black;}
+	nav a{display: block; width:auto; padding: 5px 20px; border-bottom: 2px ridge black}
+}
+				 
+
+ #rightnav {float: right;
+	             width: 15%;
+				 font-weight:bold;
+				 letter-spacing:0.1em;}
+				 #rightnav a { text-decoration: none;
+	padding: 20px 10px;
+	display: block;
+	background-color: #7a9e9f;
+	border-bottom: 1px solid #ffffff;
+}
+#rightnav a:link {color: #ffffff;}
+#rightnav a:visited {color: #9edfe8;}
+#rightnav a:hover {color: #103e44;
+	background-color: #eef5db;
+}
+
+
+fa {
+	padding: 10px;
+	font-size: 10px;
+	width: 10px;
+	text-align: left;
+	text-decoration: none;
+	border-radius: 40%;
+}
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	border: black;
+}
+#socialicons{float: right; width: 30%;}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.9;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* snapchat */
+.fa-snapchat {
+  background: #ffff00;
+  color: white;
+}
+
+/* instagram */
+.fa-instagram {
+  background: #ff0066;
+  color: white;
+}
+
+@media only screen and (max-width: 1024px){
+  body{margin: 0;}
+  #wrapper{width: auto;}
+  p{font-size: 90%;}
+}
+
+@media only screen and (max-width:768px){
+  nav{padding: 10px 5px;}
+  nav a{margin-right: 2px; width: 70px; padding: 5px;}
+}
+
+@media only screen and (max-width: 600px){
+  header{text-align: center; border-bottom: 2px solid white;}
+  nav{padding: 0;}
+  nav a{display: block; border-bottom: 1px solid #63acab; width: auto; border-left: 0;
+    border-right: 0; text-align: center; margin-right: 0px;}
+    .fa {padding: 5px;}
+  }
